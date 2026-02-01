@@ -1,7 +1,5 @@
 //=============
 
-const { jsxs } = require("react/jsx-runtime");
-
 //storing Data in local Storage == >> Client Side
 localStorage.setItem("name", "Wsuits6");
 localStorage.setItem("AccountBalance", 50000000000000);
@@ -15,4 +13,6 @@ const companies = {
     companyThree : "Hsociety"
 }
 
-localStorage.setItem("companies", JSON.stringify(companies))
+//storing OBject us 
+localStorage.setItem("example", JSON.stringify(companies))
+document.cookie = "Username = WSUITS6";
